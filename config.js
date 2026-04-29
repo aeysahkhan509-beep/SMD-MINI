@@ -13,7 +13,7 @@ module.exports = {
     DATABASE_URL:
         process.env.MONGODB_URI ||
         process.env.DATABASE_URL ||
-        "", // ENTER POSTGRES DB URL OR MONGODB PUBLIC URL OR ENTER NOTHING FOR USE FREE SITE
+        "",
 
     // =============================
     // BOT CORE SETTINGS
@@ -29,11 +29,11 @@ module.exports = {
     // =============================
     BOT_NAME:
         process.env.BOT_NAME ||
-        "Rashid",
+        "SMD-MINI",
 
     OWNER_NAME:
         process.env.OWNER_NAME ||
-        "THE-DEVIL",
+        "TEAM-BANDAHEALI",
 
     CAPTION:
         process.env.CAPTION ||
@@ -56,9 +56,9 @@ module.exports = {
     // =============================
     SITE_URL:
         process.env.SITE_URL ||
-        "https://smd-mini.vercel.app",
+        "https://mr-shaban.vercel.app",
 
     PORT:
         process.env.PORT ||
-        "20014"
+        "21604"
 };
